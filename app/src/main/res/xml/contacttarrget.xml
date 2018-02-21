@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Datos de Usuario">
+
+        <!--Permite un checkBox-->
+        <!--La key sirve para recuperar el nombre para utilizarlo en el programa-->
+        <!--<CheckBoxPreference-->
+
+            <!--android:key="opcion1"-->
+            <!--android:title="Sonido"-->
+            <!--android:summary="Activa o desactiva el sonido" />-->
+        <!--Me permite sacar un texo-->
+        <EditTextPreference
+            android:key="nombre"
+            android:title="Nombre completo del usuario"
+            android:summary="Identifica nombre del usuario de la aplicación"
+            android:dialogTitle="Introduce nombre" />
+        <EditTextPreference
+            android:key="identificacion"
+            android:title="Identificación (DNI,NIE,...)"
+            android:summary="Identifica al usuario de la aplicación"
+            android:dialogTitle="Introduce documento de identidad" />
+        <EditTextPreference
+            android:key="nacimiento"
+            android:title="Fecha de nacimiento"
+            android:summary="Identifica edad del usuario"
+            android:dialogTitle="Introduce fecha de nacimiento" />
+        <EditTextPreference
+            android:key="sangre"
+            android:title="Grupo sanguíneo"
+            android:summary="Identifica al usuario de la aplicación"
+            android:dialogTitle="Introduce grupo sanguíneo" />
+        <EditTextPreference
+            android:key="alergia"
+            android:title="Alergias o intolerancias"
+            android:summary="Identifica posibles intolerancias"
+            android:dialogTitle="Introduce alergias o intoleracias" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Números de emergencia">
+        <EditTextPreference
+            android:key="numero1"
+            android:title="Contacto 1"
+            android:summary="Contacto de emergencia 1"
+            android:dialogTitle="Introduce numero de contacto" />
+        <EditTextPreference
+            android:key="numero2"
+            android:title="Contacto 2"
+            android:summary="Contacto de emergencia 1"
+            android:dialogTitle="Introduce numero de contacto 2" />
+        <EditTextPreference
+            android:key="numero3"
+            android:title="Contacto 3"
+            android:summary="Contacto de emergencia 1"
+            android:dialogTitle="Introduce numero de contacto 3" />
+
+    </PreferenceCategory>
+    String texto= "Socorro, me encuentro en la posición"+"estaba practicando"+"y he tenido un accidente"+"Mi gurpo sanguineo es:
+    "+sangre+", y tengo alegias o inteoleracia a: "+alergia+". Mi identificación es: "+identificacion+".";
+
+
+</PreferenceScreen>

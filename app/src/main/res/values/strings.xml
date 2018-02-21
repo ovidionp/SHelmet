@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">SHelmet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+
+
+    <!--Cadenas para Elegir deporte-->
+    <string name="boton_deportes">Deporte: </string>
+    <string name="descri_boton_deportes">Seleccionar deporte que se va a practicar</string>
+    <string-array name="deportes">
+        <item>Elegir Deporte</item>
+        <item>Ciclismo</item>
+        <item>Equitación</item>
+        <item>Esquiar</item>
+        <item>Senderismo</item>
+        <item>Barranquismo</item>
+        <item>Motocross</item>
+    </string-array>
+
+
+
+
+
+
+
+    <!-- Strings related to Settings -->
+
+    <!--CADENAS PARA PREFERENCIAS-->
+    <string-array name="pais">
+        <!--como se muetra-->
+        <item>España</item>
+        <item>Francia</item>
+        <item>Italia</item>
+    </string-array>
+    <string-array name="codigopais">
+        <!--como se guarda-->
+        <item>ESP</item>
+        <item>FRA</item>
+        <item>ITA</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Boton_iniciar">Iniciar</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wh"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Whatssap" />
+        <item
+            android:id="@+id/nav_tl"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Telegram" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_tar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tarjeta de contacto" />
+            <item
+                android:id="@+id/nav_prefer"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Preferencias" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Acerca de" />
+        </menu>
+    </item>
+
+</menu>
